@@ -14,12 +14,11 @@ var config = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loaders: ['babel'],
+        loaders: ['babel']
       },
       {
         test: /\.css$/, loader: 'style!css?modules'
       }]
-    ],
   },
   resolveLoader: {
     root: [
