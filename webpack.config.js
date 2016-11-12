@@ -16,6 +16,9 @@ var config = {
         exclude: /node_modules/,
         loaders: ['babel'],
       },
+      {
+        test: /\.css$/, loader: 'style!css?modules'
+      }]
     ],
   },
   resolveLoader: {
